@@ -1,0 +1,27 @@
+{
+  "source": "OS.js/src/client/javascript",
+  "destination": "./build/client",
+  "plugins": [
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "brand": {
+          "title": "OS.js v2.1 Client API",
+          "description": "OS.js v2.1 Client API Documentation",
+          "repository": "https://github.com/os-js/OS.js",
+          "author": "https://twitter.com/andersevenrud"
+        },
+        "lint": {
+          "enable": false
+        },
+        "coverage": {
+          "enable": false
+        },
+        "undocumentIdentifier": {
+          "enable": false
+        }
+      }
+    },
+    {"name": "esdoc-publish-html-plugin"}
+  ]
+}

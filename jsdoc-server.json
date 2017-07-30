@@ -1,0 +1,12 @@
+{
+  "opts": {
+    "readme": "OS.js/README.md",
+    "destination": "./build/server/",
+    "recurse": true
+  },
+  "source": {
+    "include": ["OS.js/src/server/node/"],
+    "exclude": [
+    ]
+  }
+}
