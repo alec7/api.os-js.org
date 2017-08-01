@@ -9,10 +9,12 @@ index:
 	cp -r src/* build/
 
 server:
+	rm -rf build/server
 	node node_modules/jsdoc/jsdoc.js -c jsdoc-server.json --verbose
 #	node node_modules/esdoc/out/src/ESDocCLI.js -c esdoc-server.json
 
 client:
+	rm -rf build/client
 	node node_modules/esdoc/out/src/ESDocCLI.js -c esdoc-client.json
 
 .PHONY: server client clean index
