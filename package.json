@@ -2,6 +2,7 @@
   "name": "doc-osjs-org",
   "dependencies": {
     "esdoc": "^1.0.1",
+    "esdoc-plugins": "https://github.com/andersevenrud/esdoc-plugins/archive/custom-html-publish-plugin.tar.gz",
     "esdoc-standard-plugin": "^1.0.0",
     "jsdoc": "^3.5.3"
   }

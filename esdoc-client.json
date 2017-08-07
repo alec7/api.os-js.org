@@ -22,6 +22,11 @@
         }
       }
     },
-    {"name": "esdoc-publish-html-plugin"}
+    {
+      "name": "esdoc-publish-html-plugin",
+      "option": {
+        "template": "esdoc-template"
+      }
+    }
   ]
 }

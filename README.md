@@ -1,24 +1,10 @@
 # OS.js v2.1 API Documentation
 
-Official sources for OS.js api documentation (version 2.1)
+Official API documentation for OS.js (v2.1) client.
 
-https://api.os-js.org/
+More information:
 
-## TODO:
-
-- Custom esdoc template
-- Custom jsdoc template
-- Index page
-
-## Usage
-
-```
-$ ln -sf /path/to/OS.js OS.js
-$ npm install
-$ make
-```
-
-## License
-
-MIT
-
+- Manuals - https://manual.os-js.org/
+- Community - https://community.os-js.org/
+- Chat - https://gitter.im/os-js/OS.js
+- Repositories - https://github.com/os-js
