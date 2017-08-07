@@ -1,8 +1,9 @@
 {
   "opts": {
-    "readme": "OS.js/README.md",
+    "readme": "README.md",
     "destination": "./build/server/",
-    "recurse": true
+    "recurse": true,
+    "template": "jsdoc-template"
   },
   "source": {
     "include": ["OS.js/src/server/node/"],

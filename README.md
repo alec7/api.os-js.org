@@ -1,6 +1,6 @@
 # OS.js v2.1 API Documentation
 
-Official API documentation for OS.js (v2.1) client.
+Official API documentation for OS.js (v2.1).
 
 More information:
 
