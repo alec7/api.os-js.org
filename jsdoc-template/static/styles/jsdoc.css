@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  height: auto;
+}
+main,
+content,
+section,
+header,
+nav {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: inherit;
+}
+table > thead {
+  text-align: left;
+  font-weight: normal;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow: auto;
+  color: #222;
+}
+body > header {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #572a79;
+  padding: 1em;
+}
+body > main {
+  min-height: 100vh;
+  display: flex;
+}
+body > main > aside {
+  flex: 0 0 auto;
+  margin-right: 2em;
+  padding: 2em;
+  background-color: #fafafa;
+}
+body > main > content {
+  flex: 1 1 auto;
+  min-height: 100%;
+  padding: 2em;
+  padding-bottom: 10em;
+}
+body > footer {
+  text-align: center;
+  font-size: 70%;
+}
+body > main > aside > nav > h2 {
+  display: none;
+}
+body > main > aside > nav > ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+}
+body > main > content > section > header > h2 {
+  font-size: 150%;
+}
+body > main > content > section > header > .class-description {
+  font-size: 120%;
+}
+body > main > content > section > article h2,
+body > main > content > section > article h3.subsection-title {
+  font-size: 120%;
+}
+body > main > content > section > article > h4 {
+  background-color: #fafafa;
+  border: 1px solid #e8e8e8;
+  padding: 0.2em;
+}
+body > main > content > section > article .description {
+  font-style: italic;
+}
+body > main > content > section > article dl.details {
+  font-size: 70%;
+}
+body > main > content > section > article dd {
+  margin-start: 0;
+  margin-left: 2em;
+}
+body > main > content > section > article dd.tag-source {
+  margin: 0;
+  padding: 0;
+}
+body > main > content > section > article dl > dt:not(.tag-source) {
+  display: none;
+}
+body > main > content > section > article > table.params {
+  margin-left: 1em;
+}
+body > main > content > section > article > table.params th,
+body > main > content > section > article > table.params td {
+  font-weight: normal;
+  padding: 0.2em;
+}
+body > main > content > section > article > table.params tbody tr td {
+  border-bottom: 1px solid #e8e8e8;
+}
+body > main > content > section > article > table.params tbody tr:nth-child(2n+1) td {
+  background-color: #fafafa;
+}
+body > main > content > section > article .param-type {
+  font-family: 'Source Code Pro', monospace;
+}
