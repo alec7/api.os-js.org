@@ -3,23 +3,23 @@
   "destination": "./build/client",
   "plugins": [
     {
-      "name": "esdoc-standard-plugin",
+      "name": "esdoc-brand-plugin",
       "option": {
-        "brand": {
-          "title": "OS.js v2.1 Client API",
-          "description": "OS.js v2.1 Client API Documentation",
-          "repository": "https://github.com/os-js/OS.js",
-          "author": "https://twitter.com/andersevenrud"
-        },
-        "lint": {
-          "enable": false
-        },
-        "coverage": {
-          "enable": false
-        },
-        "undocumentIdentifier": {
-          "enable": false
-        }
+        "title": "OS.js v2.1 Client API",
+        "description": "OS.js v2.1 Client API Documentation",
+        "repository": "https://github.com/os-js/OS.js",
+        "author": "https://twitter.com/andersevenrud"
+      }
+    },
+    {
+      "name": "esdoc-accessor-plugin",
+      "option": {
+      }
+    },
+    {
+      "name": "esdoc-unexported-identifier-plugin",
+      "option": {
+        "enable": false
       }
     },
     {
