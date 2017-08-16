@@ -23,6 +23,12 @@
       }
     },
     {
+      "name": "esdoc-undocumented-identifier-plugin",
+      "option": {
+        "enable": false
+      }
+    },
+    {
       "name": "esdoc-publish-html-plugin",
       "option": {
         "template": "esdoc-template"

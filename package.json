@@ -5,6 +5,7 @@
     "esdoc-accessor-plugin": "^1.0.0",
     "esdoc-brand-plugin": "^1.0.0",
     "esdoc-publish-html-plugin": "git+https://github.com/andersevenrud/esdoc-publish-module-html-plugin.git#custom-html-template-path",
+    "esdoc-undocumented-identifier-plugin": "^1.0.0",
     "esdoc-unexported-identifier-plugin": "^1.0.0",
     "jsdoc": "^3.5.3"
   }
